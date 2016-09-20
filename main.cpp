@@ -17,16 +17,7 @@
 #include<boost/multiprecision/cpp_int.hpp>
 #define int int64_t
 #define REP(i, a, b) for (int64_t i = (int64_t)(a); i < (int64_t)(b); i++)
-#define rep(i, a) REP(i, 0, a)
-#define EACH(i, a) for (auto i: a)
-#define ITR(x, a) for (auto x = a.begin(); x != a.end(); x++)
-#define ALL(a) (a.begin()), (a.end())
-#define HAS(a, x) (a.find(x) != a.end())
-#define Min(x) *min_element(ALL(x))
-#define Max(x) *max_element(ALL(x))
-#define Unique(L) (L.erase(unique(ALL(L)), L.end()))
 using namespace std;
-typedef boost::multiprecision::cpp_int bigint;
 
 signed main(void) {
 	cin.tie(0);
